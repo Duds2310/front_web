@@ -1,0 +1,30 @@
+
+/*Ajustar alinhamento e tamanho dos itens internos*/
+
+.div_login{
+    /* background-color: blueviolet; */
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.h{
+    /* background-color: chartreuse; */
+    text-align: center;
+    justify-content: center;
+}
+
+.tb_login{
+    background-color:aliceblue;
+    margin: 5px;
+}
+
+.bt_login{
+    width: 48%;
+}
+
+.geral{
+    /* background-color: darkblue; */
+    display: flex;
+    justify-content: center; 
+    padding: 20%; /*Provisório REMOVER! */
+}

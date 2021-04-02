@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
+    <link rel="stylesheet" href="./style_login.css">
 </head>
+
 <body>
-    
+    <div class="geral">
+        <div class="div_login">
+            <h2 class="h">Login</h1>
+            <!-- tb_login -->
+            <table class="tb_login">
+                <form action="#">
+                    <tr>
+                        <td>
+                            <input type="text" id="user" placeholder="Usuário" required autofocus>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password" id="senha" placeholder="Senha" required autofocus>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="bt_login" type="button" value="reset">
+                            <input class="bt_login" type="button" value="enviar">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" id="lembrar" value="lembrar">
+                            <label for="lembrar">Lembrar-me</label>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+            <!-- tb_login -->
+        </div>
+    </div>
 </body>
+
 </html>
